@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header footer table</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: greenyellow;
+            width: 100vw;
+            height: 20vh;
+        }
+        footer{
+            background-color: greenyellow;
+            width: 100vw;
+            height: 20vh;
+            margin-top: 0px;
+           }
+           .grid-container{
+            display: grid;
+            grid-template-columns: 940px 300px 300px;
+            grid-template-rows:440px ;
+           
+           }
+           .grid-item1{
+            background-color: rgb(253, 250, 250);
+            
+           }
+           .grid-item2{
+            background-color:rgb(244, 223, 183);
+            
+           }
+           .grid-item3{
+            background-color: rgb(221, 237, 243);
+            
+           }
+           p{
+            padding:2px 0px 0px 3px ;
+            font-size: 2rem;
+            font-weight: bold;
+           }
+    </style>
+</head>
+<body>
+       <header><p>Header</p></header>
+        <div class="grid-container">
+            <div class="grid-item1"><p>Article</p></div>
+            <div class="grid-item2"><p>Aside</p></div>
+            <div class="grid-item3"><p>Nav</p></div>
+        </div>
+        <footer><p>Footer</p></footer>
+
+</body>
+</html>
